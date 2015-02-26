@@ -15,9 +15,12 @@
 #define kHeaderHeight                 100.0f
 #define kNumberOfVideosInRow          2
 #define kMarginBetweenVideoItems      10
+#define kVideoContentLabelHeight      30
+#define kVideoImageViewPadding        3
 
 #define kFontName                     @"Helvetica-Light"
 #define kRegularFontName              @"Helvetica"
 #define kBoldFontName                 @"Helvetica-Bold"
 
-#define kBaseApi   @"http://demo.redsymbolhost.com/carvan/restApi/api.php"
+#define kBaseApi                      @"http://demo.redsymbolhost.com/carvan/restApi/api.php"
+#define kYouTubeImageApi              @"http://img.youtube.com/vi/"
