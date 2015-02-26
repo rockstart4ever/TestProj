@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251190D71A9C5511003850AB /* Bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 251190D61A9C5511003850AB /* Bg.png */; };
+		2552F5781A9DE0E900699015 /* VideoDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2552F5771A9DE0E900699015 /* VideoDataModel.m */; };
+		25767F931A94F68400961FCB /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25767F921A94F68400961FCB /* MenuItems.plist */; };
+		257BE8EE1A9B28D0007D0485 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 257BE8EC1A9B28D0007D0485 /* Placeholder.png */; };
+		257BE8EF1A9B28D0007D0485 /* Placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 257BE8ED1A9B28D0007D0485 /* Placeholder@2x.png */; };
+		257BE8F21A9B2BC8007D0485 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 257BE8F01A9B2BC8007D0485 /* IconDownloader.m */; };
+		2588CD9C1A98E6C400135DB8 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2588CD9B1A98E6C400135DB8 /* VideosViewController.m */; };
+		2588CDA21A98E72600135DB8 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2588CDA11A98E72600135DB8 /* AboutUsViewController.m */; };
+		2588CDA51A98E77300135DB8 /* ContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2588CDA41A98E77300135DB8 /* ContactUsViewController.m */; };
+		2588CDA81A98E78500135DB8 /* RecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2588CDA71A98E78500135DB8 /* RecipesViewController.m */; };
+		259029851A9A1B0200C69C5C /* ResourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259029841A9A1B0200C69C5C /* ResourcesViewController.m */; };
+		259029891A9A4E2900C69C5C /* ResourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 259029881A9A4E2900C69C5C /* ResourceModel.m */; };
+		25C197661A9909DB00E7EB86 /* Separator.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C197641A9909DB00E7EB86 /* Separator.png */; };
+		25C197671A9909DB00E7EB86 /* Separator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C197651A9909DB00E7EB86 /* Separator@2x.png */; };
+		25C7BFF51A9660D600C43F56 /* Home-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C7BFF21A9660D600C43F56 /* Home-Landscape.png */; };
+		25C7BFF61A9660D600C43F56 /* RevealIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C7BFF31A9660D600C43F56 /* RevealIcon.png */; };
+		25C7BFF71A9660D600C43F56 /* RevealIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C7BFF41A9660D600C43F56 /* RevealIcon@2x.png */; };
+		25C7D8201A934B6700A53FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C7D81F1A934B6700A53FC9 /* Foundation.framework */; };
+		25C7D8221A934B6700A53FC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C7D8211A934B6700A53FC9 /* CoreGraphics.framework */; };
+		25C7D8241A934B6700A53FC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C7D8231A934B6700A53FC9 /* UIKit.framework */; };
+		25C7D8261A934B6700A53FC9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C7D8251A934B6700A53FC9 /* CoreData.framework */; };
+		25C7D82C1A934B6700A53FC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25C7D82A1A934B6700A53FC9 /* InfoPlist.strings */; };
+		25C7D82E1A934B6700A53FC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C7D82D1A934B6700A53FC9 /* main.m */; };
+		25C7D8321A934B6700A53FC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C7D8311A934B6700A53FC9 /* AppDelegate.m */; };
+		25C7D8351A934B6700A53FC9 /* Caravan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25C7D8331A934B6700A53FC9 /* Caravan.xcdatamodeld */; };
+		25C7D8371A934B6700A53FC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C7D8361A934B6700A53FC9 /* Images.xcassets */; };
+		25C7D83E1A934B6700A53FC9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C7D83D1A934B6700A53FC9 /* XCTest.framework */; };
+		25C7D83F1A934B6700A53FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C7D81F1A934B6700A53FC9 /* Foundation.framework */; };
+		25C7D8401A934B6700A53FC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C7D8231A934B6700A53FC9 /* UIKit.framework */; };
+		25C7D8411A934B6700A53FC9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C7D8251A934B6700A53FC9 /* CoreData.framework */; };
+		25C7D8491A934B6700A53FC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25C7D8471A934B6700A53FC9 /* InfoPlist.strings */; };
+		25C7D84B1A934B6700A53FC9 /* CaravanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C7D84A1A934B6700A53FC9 /* CaravanTests.m */; };
+		25C7D85B1A936A4D00A53FC9 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C7D85A1A936A4D00A53FC9 /* MenuTableViewController.m */; };
+		25F8C7491A93ABF300A836D1 /* Home-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 25F8C7481A93ABF300A836D1 /* Home-Portrait.png */; };
+		25F8C74C1A93BA3A00A836D1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F8C74B1A93BA3A00A836D1 /* HomeViewController.m */; };
+		25F8C74E1A93BB4300A836D1 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 25F8C74D1A93BB4300A836D1 /* Logo.png */; };
+		F40AD44F90C2FA83929AE42F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE304396D1B9774612FF91E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25C7D8421A934B6700A53FC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25C7D8141A934B6700A53FC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25C7D81B1A934B6700A53FC9;
+			remoteInfo = Caravan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DE304396D1B9774612FF91E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		251190D61A9C5511003850AB /* Bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bg.png; sourceTree = "<group>"; };
+		2552F5761A9DE0E900699015 /* VideoDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoDataModel.h; path = Models/VideoDataModel.h; sourceTree = "<group>"; };
+		2552F5771A9DE0E900699015 /* VideoDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoDataModel.m; path = Models/VideoDataModel.m; sourceTree = "<group>"; };
+		25767F921A94F68400961FCB /* MenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MenuItems.plist; path = Data/MenuItems.plist; sourceTree = "<group>"; };
+		257BE8EC1A9B28D0007D0485 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		257BE8ED1A9B28D0007D0485 /* Placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Placeholder@2x.png"; sourceTree = "<group>"; };
+		257BE8F01A9B2BC8007D0485 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconDownloader.m; path = Classes/IconDownloader.m; sourceTree = "<group>"; };
+		257BE8F11A9B2BC8007D0485 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconDownloader.h; path = Classes/IconDownloader.h; sourceTree = "<group>"; };
+		2588CD9A1A98E6C400135DB8 /* VideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideosViewController.h; path = Classes/VideosViewController.h; sourceTree = "<group>"; };
+		2588CD9B1A98E6C400135DB8 /* VideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideosViewController.m; path = Classes/VideosViewController.m; sourceTree = "<group>"; };
+		2588CDA01A98E72600135DB8 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutUsViewController.h; path = Classes/AboutUsViewController.h; sourceTree = "<group>"; };
+		2588CDA11A98E72600135DB8 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutUsViewController.m; path = Classes/AboutUsViewController.m; sourceTree = "<group>"; };
+		2588CDA31A98E77300135DB8 /* ContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactUsViewController.h; path = Classes/ContactUsViewController.h; sourceTree = "<group>"; };
+		2588CDA41A98E77300135DB8 /* ContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactUsViewController.m; path = Classes/ContactUsViewController.m; sourceTree = "<group>"; };
+		2588CDA61A98E78500135DB8 /* RecipesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipesViewController.h; path = Classes/RecipesViewController.h; sourceTree = "<group>"; };
+		2588CDA71A98E78500135DB8 /* RecipesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipesViewController.m; path = Classes/RecipesViewController.m; sourceTree = "<group>"; };
+		2588CDAA1A98ECDB00135DB8 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = AppConfig/Constants.h; sourceTree = "<group>"; };
+		259029831A9A1B0200C69C5C /* ResourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourcesViewController.h; path = Classes/ResourcesViewController.h; sourceTree = "<group>"; };
+		259029841A9A1B0200C69C5C /* ResourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourcesViewController.m; path = Classes/ResourcesViewController.m; sourceTree = "<group>"; };
+		259029871A9A4E2900C69C5C /* ResourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourceModel.h; path = Models/ResourceModel.h; sourceTree = "<group>"; };
+		259029881A9A4E2900C69C5C /* ResourceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourceModel.m; path = Models/ResourceModel.m; sourceTree = "<group>"; };
+		25C197641A9909DB00E7EB86 /* Separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Separator.png; sourceTree = "<group>"; };
+		25C197651A9909DB00E7EB86 /* Separator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Separator@2x.png"; sourceTree = "<group>"; };
+		25C7BFF21A9660D600C43F56 /* Home-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-Landscape.png"; sourceTree = "<group>"; };
+		25C7BFF31A9660D600C43F56 /* RevealIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RevealIcon.png; sourceTree = "<group>"; };
+		25C7BFF41A9660D600C43F56 /* RevealIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RevealIcon@2x.png"; sourceTree = "<group>"; };
+		25C7D81C1A934B6700A53FC9 /* Caravan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caravan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C7D81F1A934B6700A53FC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25C7D8211A934B6700A53FC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25C7D8231A934B6700A53FC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25C7D8251A934B6700A53FC9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25C7D8291A934B6700A53FC9 /* Caravan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caravan-Info.plist"; sourceTree = "<group>"; };
+		25C7D82B1A934B6700A53FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25C7D82D1A934B6700A53FC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25C7D82F1A934B6700A53FC9 /* Caravan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Caravan-Prefix.pch"; sourceTree = "<group>"; };
+		25C7D8301A934B6700A53FC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25C7D8311A934B6700A53FC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25C7D8341A934B6700A53FC9 /* Caravan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Caravan.xcdatamodel; sourceTree = "<group>"; };
+		25C7D8361A934B6700A53FC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25C7D83C1A934B6700A53FC9 /* CaravanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaravanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C7D83D1A934B6700A53FC9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		25C7D8461A934B6700A53FC9 /* CaravanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CaravanTests-Info.plist"; sourceTree = "<group>"; };
+		25C7D8481A934B6700A53FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25C7D84A1A934B6700A53FC9 /* CaravanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaravanTests.m; sourceTree = "<group>"; };
+		25C7D8591A936A4D00A53FC9 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuTableViewController.h; path = Classes/MenuTableViewController.h; sourceTree = "<group>"; };
+		25C7D85A1A936A4D00A53FC9 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = Classes/MenuTableViewController.m; sourceTree = "<group>"; };
+		25F8C7481A93ABF300A836D1 /* Home-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-Portrait.png"; sourceTree = "<group>"; };
+		25F8C74A1A93BA3A00A836D1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Classes/HomeViewController.h; sourceTree = "<group>"; };
+		25F8C74B1A93BA3A00A836D1 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Classes/HomeViewController.m; sourceTree = "<group>"; };
+		25F8C74D1A93BB4300A836D1 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		CCA7E7DD680610A242BF0C9D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F36F438CD63D3B83658BCAA0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25C7D8191A934B6700A53FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C7D8221A934B6700A53FC9 /* CoreGraphics.framework in Frameworks */,
+				25C7D8261A934B6700A53FC9 /* CoreData.framework in Frameworks */,
+				25C7D8241A934B6700A53FC9 /* UIKit.framework in Frameworks */,
+				25C7D8201A934B6700A53FC9 /* Foundation.framework in Frameworks */,
+				F40AD44F90C2FA83929AE42F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C7D8391A934B6700A53FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C7D83E1A934B6700A53FC9 /* XCTest.framework in Frameworks */,
+				25C7D8411A934B6700A53FC9 /* CoreData.framework in Frameworks */,
+				25C7D8401A934B6700A53FC9 /* UIKit.framework in Frameworks */,
+				25C7D83F1A934B6700A53FC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25767F911A94F5BC00961FCB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				25767F921A94F68400961FCB /* MenuItems.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		2588CDA91A98EC7A00135DB8 /* AppConfig.h */ = {
+			isa = PBXGroup;
+			children = (
+				2588CDAA1A98ECDB00135DB8 /* Constants.h */,
+			);
+			name = AppConfig.h;
+			sourceTree = "<group>";
+		};
+		259029861A9A4E0200C69C5C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				259029871A9A4E2900C69C5C /* ResourceModel.h */,
+				259029881A9A4E2900C69C5C /* ResourceModel.m */,
+				2552F5761A9DE0E900699015 /* VideoDataModel.h */,
+				2552F5771A9DE0E900699015 /* VideoDataModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		25C7D8131A934B6700A53FC9 = {
+			isa = PBXGroup;
+			children = (
+				25C7D8271A934B6700A53FC9 /* Caravan */,
+				25C7D8441A934B6700A53FC9 /* CaravanTests */,
+				25C7D81E1A934B6700A53FC9 /* Frameworks */,
+				25C7D81D1A934B6700A53FC9 /* Products */,
+				5D428BDB970631D4E6A5DE49 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		25C7D81D1A934B6700A53FC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25C7D81C1A934B6700A53FC9 /* Caravan.app */,
+				25C7D83C1A934B6700A53FC9 /* CaravanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25C7D81E1A934B6700A53FC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25C7D81F1A934B6700A53FC9 /* Foundation.framework */,
+				25C7D8211A934B6700A53FC9 /* CoreGraphics.framework */,
+				25C7D8231A934B6700A53FC9 /* UIKit.framework */,
+				25C7D8251A934B6700A53FC9 /* CoreData.framework */,
+				25C7D83D1A934B6700A53FC9 /* XCTest.framework */,
+				0DE304396D1B9774612FF91E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25C7D8271A934B6700A53FC9 /* Caravan */ = {
+			isa = PBXGroup;
+			children = (
+				259029861A9A4E0200C69C5C /* Models */,
+				2588CDA91A98EC7A00135DB8 /* AppConfig.h */,
+				25C7D8581A9369CD00A53FC9 /* Classes */,
+				25C7D8301A934B6700A53FC9 /* AppDelegate.h */,
+				25C7D8311A934B6700A53FC9 /* AppDelegate.m */,
+				25C7D8361A934B6700A53FC9 /* Images.xcassets */,
+				25C7D8331A934B6700A53FC9 /* Caravan.xcdatamodeld */,
+				25F8C7461A93ABF300A836D1 /* Resources */,
+				25C7D8281A934B6700A53FC9 /* Supporting Files */,
+			);
+			path = Caravan;
+			sourceTree = "<group>";
+		};
+		25C7D8281A934B6700A53FC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25C7D8291A934B6700A53FC9 /* Caravan-Info.plist */,
+				25C7D82A1A934B6700A53FC9 /* InfoPlist.strings */,
+				25C7D82D1A934B6700A53FC9 /* main.m */,
+				25C7D82F1A934B6700A53FC9 /* Caravan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25C7D8441A934B6700A53FC9 /* CaravanTests */ = {
+			isa = PBXGroup;
+			children = (
+				25C7D84A1A934B6700A53FC9 /* CaravanTests.m */,
+				25C7D8451A934B6700A53FC9 /* Supporting Files */,
+			);
+			path = CaravanTests;
+			sourceTree = "<group>";
+		};
+		25C7D8451A934B6700A53FC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25C7D8461A934B6700A53FC9 /* CaravanTests-Info.plist */,
+				25C7D8471A934B6700A53FC9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25C7D8581A9369CD00A53FC9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				257BE8F11A9B2BC8007D0485 /* IconDownloader.h */,
+				257BE8F01A9B2BC8007D0485 /* IconDownloader.m */,
+				25C7D8591A936A4D00A53FC9 /* MenuTableViewController.h */,
+				25C7D85A1A936A4D00A53FC9 /* MenuTableViewController.m */,
+				25F8C74A1A93BA3A00A836D1 /* HomeViewController.h */,
+				25F8C74B1A93BA3A00A836D1 /* HomeViewController.m */,
+				2588CD9A1A98E6C400135DB8 /* VideosViewController.h */,
+				2588CD9B1A98E6C400135DB8 /* VideosViewController.m */,
+				2588CDA01A98E72600135DB8 /* AboutUsViewController.h */,
+				2588CDA11A98E72600135DB8 /* AboutUsViewController.m */,
+				2588CDA31A98E77300135DB8 /* ContactUsViewController.h */,
+				2588CDA41A98E77300135DB8 /* ContactUsViewController.m */,
+				2588CDA61A98E78500135DB8 /* RecipesViewController.h */,
+				2588CDA71A98E78500135DB8 /* RecipesViewController.m */,
+				259029831A9A1B0200C69C5C /* ResourcesViewController.h */,
+				259029841A9A1B0200C69C5C /* ResourcesViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		25F8C7461A93ABF300A836D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25767F911A94F5BC00961FCB /* Data */,
+				25F8C7471A93ABF300A836D1 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		25F8C7471A93ABF300A836D1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				251190D61A9C5511003850AB /* Bg.png */,
+				257BE8EC1A9B28D0007D0485 /* Placeholder.png */,
+				257BE8ED1A9B28D0007D0485 /* Placeholder@2x.png */,
+				25C197641A9909DB00E7EB86 /* Separator.png */,
+				25C197651A9909DB00E7EB86 /* Separator@2x.png */,
+				25C7BFF21A9660D600C43F56 /* Home-Landscape.png */,
+				25C7BFF31A9660D600C43F56 /* RevealIcon.png */,
+				25C7BFF41A9660D600C43F56 /* RevealIcon@2x.png */,
+				25F8C74D1A93BB4300A836D1 /* Logo.png */,
+				25F8C7481A93ABF300A836D1 /* Home-Portrait.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5D428BDB970631D4E6A5DE49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCA7E7DD680610A242BF0C9D /* Pods.debug.xcconfig */,
+				F36F438CD63D3B83658BCAA0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25C7D81B1A934B6700A53FC9 /* Caravan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C7D84E1A934B6700A53FC9 /* Build configuration list for PBXNativeTarget "Caravan" */;
+			buildPhases = (
+				A18EAEBBE70B4145ABC68B21 /* Check Pods Manifest.lock */,
+				25C7D8181A934B6700A53FC9 /* Sources */,
+				25C7D8191A934B6700A53FC9 /* Frameworks */,
+				25C7D81A1A934B6700A53FC9 /* Resources */,
+				4647797D4B613A62CA1EBB84 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caravan;
+			productName = Caravan;
+			productReference = 25C7D81C1A934B6700A53FC9 /* Caravan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25C7D83B1A934B6700A53FC9 /* CaravanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C7D8511A934B6700A53FC9 /* Build configuration list for PBXNativeTarget "CaravanTests" */;
+			buildPhases = (
+				25C7D8381A934B6700A53FC9 /* Sources */,
+				25C7D8391A934B6700A53FC9 /* Frameworks */,
+				25C7D83A1A934B6700A53FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25C7D8431A934B6700A53FC9 /* PBXTargetDependency */,
+			);
+			name = CaravanTests;
+			productName = CaravanTests;
+			productReference = 25C7D83C1A934B6700A53FC9 /* CaravanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25C7D8141A934B6700A53FC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ravi Chaudhary";
+				TargetAttributes = {
+					25C7D83B1A934B6700A53FC9 = {
+						TestTargetID = 25C7D81B1A934B6700A53FC9;
+					};
+				};
+			};
+			buildConfigurationList = 25C7D8171A934B6700A53FC9 /* Build configuration list for PBXProject "Caravan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25C7D8131A934B6700A53FC9;
+			productRefGroup = 25C7D81D1A934B6700A53FC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25C7D81B1A934B6700A53FC9 /* Caravan */,
+				25C7D83B1A934B6700A53FC9 /* CaravanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25C7D81A1A934B6700A53FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251190D71A9C5511003850AB /* Bg.png in Resources */,
+				25C7BFF51A9660D600C43F56 /* Home-Landscape.png in Resources */,
+				25C7BFF61A9660D600C43F56 /* RevealIcon.png in Resources */,
+				257BE8EF1A9B28D0007D0485 /* Placeholder@2x.png in Resources */,
+				25F8C74E1A93BB4300A836D1 /* Logo.png in Resources */,
+				25F8C7491A93ABF300A836D1 /* Home-Portrait.png in Resources */,
+				25C197671A9909DB00E7EB86 /* Separator@2x.png in Resources */,
+				25767F931A94F68400961FCB /* MenuItems.plist in Resources */,
+				257BE8EE1A9B28D0007D0485 /* Placeholder.png in Resources */,
+				25C7D82C1A934B6700A53FC9 /* InfoPlist.strings in Resources */,
+				25C7BFF71A9660D600C43F56 /* RevealIcon@2x.png in Resources */,
+				25C197661A9909DB00E7EB86 /* Separator.png in Resources */,
+				25C7D8371A934B6700A53FC9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C7D83A1A934B6700A53FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C7D8491A934B6700A53FC9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4647797D4B613A62CA1EBB84 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A18EAEBBE70B4145ABC68B21 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25C7D8181A934B6700A53FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259029851A9A1B0200C69C5C /* ResourcesViewController.m in Sources */,
+				2552F5781A9DE0E900699015 /* VideoDataModel.m in Sources */,
+				25C7D85B1A936A4D00A53FC9 /* MenuTableViewController.m in Sources */,
+				25C7D8321A934B6700A53FC9 /* AppDelegate.m in Sources */,
+				2588CDA51A98E77300135DB8 /* ContactUsViewController.m in Sources */,
+				25C7D82E1A934B6700A53FC9 /* main.m in Sources */,
+				2588CDA21A98E72600135DB8 /* AboutUsViewController.m in Sources */,
+				2588CD9C1A98E6C400135DB8 /* VideosViewController.m in Sources */,
+				257BE8F21A9B2BC8007D0485 /* IconDownloader.m in Sources */,
+				25F8C74C1A93BA3A00A836D1 /* HomeViewController.m in Sources */,
+				2588CDA81A98E78500135DB8 /* RecipesViewController.m in Sources */,
+				259029891A9A4E2900C69C5C /* ResourceModel.m in Sources */,
+				25C7D8351A934B6700A53FC9 /* Caravan.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C7D8381A934B6700A53FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C7D84B1A934B6700A53FC9 /* CaravanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25C7D8431A934B6700A53FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25C7D81B1A934B6700A53FC9 /* Caravan */;
+			targetProxy = 25C7D8421A934B6700A53FC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25C7D82A1A934B6700A53FC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C7D82B1A934B6700A53FC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25C7D8471A934B6700A53FC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C7D8481A934B6700A53FC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25C7D84C1A934B6700A53FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25C7D84D1A934B6700A53FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25C7D84F1A934B6700A53FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA7E7DD680610A242BF0C9D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caravan/Caravan-Prefix.pch";
+				INFOPLIST_FILE = "Caravan/Caravan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25C7D8501A934B6700A53FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36F438CD63D3B83658BCAA0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caravan/Caravan-Prefix.pch";
+				INFOPLIST_FILE = "Caravan/Caravan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		25C7D8521A934B6700A53FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Caravan.app/Caravan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caravan/Caravan-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CaravanTests/CaravanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		25C7D8531A934B6700A53FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Caravan.app/Caravan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caravan/Caravan-Prefix.pch";
+				INFOPLIST_FILE = "CaravanTests/CaravanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25C7D8171A934B6700A53FC9 /* Build configuration list for PBXProject "Caravan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C7D84C1A934B6700A53FC9 /* Debug */,
+				25C7D84D1A934B6700A53FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C7D84E1A934B6700A53FC9 /* Build configuration list for PBXNativeTarget "Caravan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C7D84F1A934B6700A53FC9 /* Debug */,
+				25C7D8501A934B6700A53FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C7D8511A934B6700A53FC9 /* Build configuration list for PBXNativeTarget "CaravanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C7D8521A934B6700A53FC9 /* Debug */,
+				25C7D8531A934B6700A53FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25C7D8331A934B6700A53FC9 /* Caravan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25C7D8341A934B6700A53FC9 /* Caravan.xcdatamodel */,
+			);
+			currentVersion = 25C7D8341A934B6700A53FC9 /* Caravan.xcdatamodel */;
+			path = Caravan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25C7D8141A934B6700A53FC9 /* Project object */;
+}
